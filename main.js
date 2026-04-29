@@ -40,3 +40,25 @@ function mostrarMenu() {
     }
 }
 
+
+function registrarHabitacion(callback) {
+    const numero = prompt("Número de habitación:");
+    const tipo = prompt("Tipo (Sencilla, Doble o Suite):");
+    const precioNoche = prompt("Precio por noche:");
+    
+    console.log("Validando información de la habitación...");
+    
+    setTimeout(() => {
+        const nuevaHabitacion = {
+            numero: numero,
+            tipo: tipo,
+            precioNoche: Number(precioNoche),
+            estado: "Libre",
+            huesped: ""
+        };
+        habitaciones.push(nuevaHabitacion);
+        console.log("Habitación registrada correctamente.");
+        callback();
+    }, 2000);
+}
+

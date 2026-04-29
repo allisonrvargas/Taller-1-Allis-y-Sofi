@@ -70,3 +70,18 @@ function listarHabitaciones() {
     }
 }
 
+function buscarHabitacion(callback) {
+    const numBuscar = prompt("Ingrese el número de habitación a buscar:");
+    console.log("Consultando base de datos del hotel...");
+
+    setTimeout(() => {
+        const encontrada = habitaciones.find(h => h.numero === numBuscar);
+        if (encontrada) {
+            console.log("Habitación encontrada:", encontrada);
+        } else {
+            console.log("Habitación no encontrada.");
+        }
+        callback();
+    }, 2000);
+}
+

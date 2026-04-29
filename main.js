@@ -108,3 +108,16 @@ function cambiarEstado(callback) {
     }, 3000);
 }
 
+function eliminarHabitacion() {
+    const numEliminar = prompt("Número de habitación a eliminar:");
+    const indice = habitaciones.findIndex(h => h.numero === numEliminar);
+
+    if (indice !== -1) {
+        habitaciones.splice(indice, 1);
+        console.log(`Habitación ${numEliminar} eliminada.`);
+    } else {
+        console.log("No se encontró la habitación.");
+    }
+}
+
+mostrarMenu();

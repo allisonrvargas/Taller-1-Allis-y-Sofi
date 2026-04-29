@@ -1,7 +1,7 @@
 # 🎀 Hotel Management System — Taller No.1 🎀
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Status-In%20Progress-pink?style=for-the-badge" alt="Status">
+  <img src="https://img.shields.io/badge/Status-Completed-brightgreen?style=for-the-badge" alt="Status">
   <img src="https://img.shields.io/badge/Course-JavaScript%20Basics-purple?style=for-the-badge" alt="Course">
   <img src="https://img.shields.io/badge/Year-2026-blue?style=for-the-badge" alt="Year">
 </p>

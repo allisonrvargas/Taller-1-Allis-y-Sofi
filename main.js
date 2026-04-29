@@ -62,3 +62,11 @@ function registrarHabitacion(callback) {
     }, 2000);
 }
 
+function listarHabitaciones() {
+    if (habitaciones.length === 0) {
+        console.log("No existen registros de habitaciones.");
+    } else {
+        console.table(habitaciones);
+    }
+}
+

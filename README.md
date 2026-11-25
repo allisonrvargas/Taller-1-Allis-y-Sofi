@@ -1,5 +1,7 @@
 # 🎀 Hotel Management System — Taller No.1 🎀
 
+[![CI](https://github.com/allisonrvargas/Taller-1-Allis-y-Sofi/actions/workflows/ci.yml/badge.svg)](https://github.com/allisonrvargas/Taller-1-Allis-y-Sofi/actions/workflows/ci.yml)
+
 [![Licencia: MIT](https://img.shields.io/badge/licencia-MIT-green.svg)](LICENSE)
 [![Demo](https://img.shields.io/badge/demo-en%20l%C3%ADnea-a855f7)](https://allisonrvargas.github.io/Taller-1-Allis-y-Sofi/)
 
@@ -57,6 +59,17 @@ style.css    estilos de la página
 ```
 
 ---
+### 🧪 Pruebas
+
+```bash
+npm test
+```n
+10 pruebas con `node:test` que ejecutan `main.js` con respuestas de `prompt` simuladas y `setTimeout` simulado (sin esperar los 2 y 3 segundos reales): registro con validaciones, búsqueda, cambio de estado, eliminación, listado y cancelación del menú. También comprueban la regla del taller de no usar `async/await` ni promesas.
+
+**Validaciones:** el número es obligatorio y no se puede repetir, el tipo debe ser Sencilla, Doble o Suite, el precio debe ser mayor que cero y el estado debe ser Libre, Ocupada o Limpieza. Si se cancela un cuadro de diálogo (`prompt` devuelve `null`), el programa lo maneja en lugar de fallar o quedarse en un bucle infinito.
+
+---
+
 ### 💖 Desarrollado por:
 ✨ **Angela Arrivillaga** ✨ **Allison Vargas**
 

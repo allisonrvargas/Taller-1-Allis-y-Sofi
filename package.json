@@ -1,0 +1,12 @@
+{
+  "name": "taller-1-hotel",
+  "version": "1.0.0",
+  "description": "Simulación de un hotel con callbacks y setTimeout (taller en pareja). Las pruebas ejecutan main.js con prompt y temporizadores simulados.",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test test/*.test.js"
+  },
+  "engines": { "node": ">=20" },
+  "license": "MIT"
+}

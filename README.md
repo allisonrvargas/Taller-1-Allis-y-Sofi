@@ -1,5 +1,8 @@
 # 🎀 Hotel Management System — Taller No.1 🎀
 
+[![Licencia: MIT](https://img.shields.io/badge/licencia-MIT-green.svg)](LICENSE)
+[![Demo](https://img.shields.io/badge/demo-en%20l%C3%ADnea-a855f7)](https://allisonrvargas.github.io/Taller-1-Allis-y-Sofi/)
+
 <p align="center">
   <img src="https://img.shields.io/badge/Status-Completed-brightgreen?style=for-the-badge" alt="Status">
   <img src="https://img.shields.io/badge/Course-JavaScript%20Basics-purple?style=for-the-badge" alt="Course">
@@ -41,9 +44,27 @@ Para este reto, nos pusimos en modo **Hardcore Developer** 💻 y decidimos:
 
 ---
 
+### ▶️ Cómo ejecutarlo
+
+**Demo en línea:** https://allisonrvargas.github.io/Taller-1-Allis-y-Sofi/
+
+O en local: abre `index.html` en el navegador. El menú aparece como ventanas emergentes (`prompt`) y los resultados se escriben en la **consola del navegador** (`F12` → pestaña *Console*).
+
+```text
+index.html   página que carga el script
+main.js      lógica del hotel: menú, validaciones y callbacks con setTimeout
+style.css    estilos de la página
+```
+
+---
 ### 💖 Desarrollado por:
 ✨ **Angela Arrivillaga** ✨ **Allison Vargas**
 
 <p align="right">
   <i>Hecho con amor para Campuslands 2026 🦆</i>
 </p>
+
+---
+
+### 📄 Licencia
+MIT
